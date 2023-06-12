@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+        h1 {color: aqua;
+            background-color: black;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1>Class 1 Lab</h1>
+        <p style="color:blue;
+        background-color: yellow;">
+            What is your name?
+          </p>
+          <p style="color:red;
+          background-color: black;">
+            What is your favorite colour?
+          </p>
+          <p style="color:pink;
+          background-color: antiquewhite;">
+            What is your favorite food?
+          </p>
+          <p style="color:green;
+          background-color: blue;">
+            What is your favorite animal?
+          </p>
+    </main>
+    <footer>
+        <script>
+            let user
+            let question1;
+            let question2;
+            let question3;
+            
+
+            alert("Welcome to my site, I hope you're ready to answer some questions!")
+
+            function userName() {
+                let user = prompt("Whats your name");
+                console.log(user);
+                let question1 = prompt("What is your favorite colour?");
+                console.log(question1);
+                let question2 = prompt("Whats your favorite food?");
+                console.log(question2);
+                let question3 = prompt("What's your favorite animal?")
+                console.log(question3);
+                alert("Hey " + user + ". I'm Darren, Wouldn't it be great to eat "  + question2 + " with a " + question1 + " "  + question3) 
+                
+            }
+
+            userName()
+
+            
+
+
+
+
+
+
+
+        
+
+
+        </script>
+    </footer>
+</body>
+</html>
